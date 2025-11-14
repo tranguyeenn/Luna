@@ -9,7 +9,8 @@ export async function getWeather(lat, lon) {
     const data = await res.json();
     const w = data.current_weather;
 
-    // Open-Meteo gives Celsius
+    if (!w) throw new Error("Weather data missing");
+
     const celsius = w.temperature;
     const fahrenheit = Math.round((celsius * 9) / 5 + 32);
 
@@ -29,7 +30,7 @@ export async function getWeather(lat, lon) {
     };
 
     return {
-      temp: fahrenheit,             // now Fahrenheit ONLY
+      temp: fahrenheit,
       condition: map[w.weathercode] || "Unknown",
     };
   } catch (err) {
