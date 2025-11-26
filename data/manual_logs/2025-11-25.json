@@ -1,0 +1,37 @@
+{
+  "date": "2025-11-25",
+  "sleep": {
+    "start": "00:00",
+    "interruptions": "4:00",
+    "asleep_again": "4:30",
+    "end": "09:00",
+    "duration": 8.5,
+    "quality": 8
+  },
+  "mood_log": [
+    {"time": "09:30", "mood": 3, "energy": 2 },
+    {"time": "12:00", "mood": 2, "energy": 1},
+    {"time": "14:00", "mood": 7, "energy": 5 },
+    {"time": "17:00", "mood": 9, "energy": 10},
+    {"time": "20:00", "mood": 7, "energy": 5},
+    {"time": "22:30", "mood": 10, "emergy": 1}
+  ],
+  "focus_sessions": [
+    {"start": "11:30", "end": "14:00", "task": "Machiavelli", "interruptions": 4 },
+    {"start": "15:00", "end": "16:30", "task": "Machiavelli", "interruptions": 2 },
+    {"start": "19:30", "end": "20:30", "task": "Research Proposal Paper", "interruptions": 0 },
+    {"start": "21:00", "end": "21:30", "task": "Calc Review", "interruptions": 0 },
+    {"start": "22:00", "end": "23:00", "task": "1301 Review", "interruptions": 0 }
+  ],
+  "tasks_completed": [
+    { "task": "Question 1 on Section 4 of Calc Final Review", "category": "School" },
+    { "task": "4 paragraphs done for research proposal", "category": "School" },
+    { "task": "Finish reading Machiavelli", "category": "School" },
+    { "task": "Package.json fix", "category": "Luna" }
+  ],
+  "behaviors": {
+    "screen_time": {"tiktok": 163 ,"instagram": 138, "icollege": 300, "vscode": 120 },
+    "locations": ["home"]
+  },
+  "notes": "Feel kinda guilty because I didn't do much for calc. So happy I finish Machiavelli, I thought I never got through that"
+}
