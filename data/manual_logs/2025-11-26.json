@@ -1,0 +1,30 @@
+{
+  "date": "2025-11-26",
+  "sleep": {
+    "start": "23:30",
+    "end": "07:20",
+    "duration": 7.5,
+    "quality": 10
+  },
+  "mood_log": [
+    {"time": "09:30", "mood": 3, "energy": 2 },
+    {"time": "12:00", "mood": 10, "energy": 5},
+    {"time": "14:00", "mood": 9, "energy": 7 },
+    {"time": "17:00", "mood": 10, "energy": 4},
+    {"time": "20:00", "mood": 6, "energy": 3},
+    {"time": "22:30", "mood": 10, "energy": 1}
+  ],
+  "focus_sessions": [
+    {"start": "9:30", "end": "11:20", "task": "Calc Reviw", "interruptions": 1 },
+    {"start": "19:30", "end": "20:30", "task": "Calc Review", "interruptions": 2 },
+    {"start": "21:00", "end": "23:30", "task": "Du Bois Reading", "interruptions": 0 }
+  ],
+  "tasks_completed": [
+    { "task": "Hung out with friends", "interruptions": 0}
+  ],
+  "behaviors": {
+    "screen_time": {"tiktok": 163 ,"instagram": 138},
+    "locations": ["home", "Raku Sushi Hibachi", "Peachtree Corners", "Tiger Sugars"]
+  },
+  "notes": "Catch up with some high school friends, fun day. 10/10"
+}
