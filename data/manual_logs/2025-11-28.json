@@ -1,0 +1,32 @@
+{
+  "date": "2025-11-28",
+  "sleep": {
+    "start": "00:00",
+    "end": "08:30",
+    "duration": 8.5,
+    "quality": 6
+  },
+  "mood_log": [
+    {"time": "09:30", "mood": 3, "energy": 2 },
+    {"time": "12:00", "mood": 10, "energy": 5},
+    {"time": "14:00", "mood": 9, "energy": 7 },
+    {"time": "17:00", "mood": 10, "energy": 4},
+    {"time": "20:00", "mood": 6, "energy": 3},
+    {"time": "22:30", "mood": 10, "energy": 1}
+  ],
+  "focus_sessions": [
+    {"start": "10:00", "end": "11:20", "task": "MLK", "interruptions": 0 },
+    {"start": "15:30", "end": "17:00", "task": "Calc Review", "interruptions": 0 },
+    {"start": "19:00", "end": "20:15", "task": "Finish Proposal", "interruptions": 0 }
+  ],
+  "tasks_completed": [
+    { "task": "MLK Reading", "interruptions": 0},
+    {"task": "Calc Review", "interruptions": 0},
+    {"task": "Finish Proposal", "interruptions": 0}
+  ],
+  "behaviors": {
+    "screen_time": {"tiktok": 232 ,"instagram": 92},
+    "locations": ["home"]
+  },
+  "notes": "Chill day. Kinda worry for Jared but I hope he's doing ok"
+}
