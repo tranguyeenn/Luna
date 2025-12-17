@@ -7,11 +7,11 @@
 Produce a **trustworthy weekly summary** of personal energy and focus using existing data.
 
 ## In Scope
-- `data/raw`
-- `data/processed`
-- `src/cleaning`
-- `src/features`
-- `src/analytics`
+- [`data/raw`](https://github.com/tranguyeenn/Luna/tree/main/data/raw)
+- [`data/processed`](https://github.com/tranguyeenn/Luna/tree/main/data/processed)
+- [`src/cleaning`](https://github.com/tranguyeenn/Luna/tree/main/src/cleaning)
+- [`src/features`](https://github.com/tranguyeenn/Luna/tree/main/src/features)
+- [`src/analytics`](https://github.com/tranguyeenn/Luna/tree/main/src/analytics)
 - Weekly summaries
 - Basic plots
 
