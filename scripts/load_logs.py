@@ -22,4 +22,4 @@ logs = load_logs()
 
 print("Days logged:", len(logs))
 for log in logs:
-    print(log["date"], "Focus:", log["focus"], "Energy:", log["energy"]) ##Accessing values from the logs dict
+    print(log["date"], "Focus:", log["focus"], "Energy:", log["energy"], "Sleep Hours:", log["sleep_hours"], sep=" | ", end="\n----------------------------------------------------------\n") ##Accessing values from the logs dict
