@@ -24,6 +24,8 @@ log_dir.mkdir(parents=True, exist_ok=True)
 
 log_path = log_dir / f"{today}.json"
 
+
+
 with open(log_path, "w") as f:
     json.dump(log, f, indent=2)
 
